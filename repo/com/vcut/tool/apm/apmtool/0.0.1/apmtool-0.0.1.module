@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "apmRoot",
+    "module": "plugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "edhx3r4wlbehhoudeqztlzhmr4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "apmtool-0.0.1.jar",
+          "url": "apmtool-0.0.1.jar",
+          "size": 2096,
+          "sha512": "4460b28d6348db740916ed99212b915be86b9bb232a1572d56b5f7d30e8a603009bb8da90e092341865e3034e94995416ac3a40c96d995adb2f2fc317e0d723b",
+          "sha256": "4248bff269b6304b1b82f56f61b5818b450700d17e12a16cad5d84cff3a57381",
+          "sha1": "e86bc298fdb26445f5f81cc11395f2259065184c",
+          "md5": "7b58578fd602f3954262e2eb78fd650a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "apmtool-0.0.1.jar",
+          "url": "apmtool-0.0.1.jar",
+          "size": 2096,
+          "sha512": "4460b28d6348db740916ed99212b915be86b9bb232a1572d56b5f7d30e8a603009bb8da90e092341865e3034e94995416ac3a40c96d995adb2f2fc317e0d723b",
+          "sha256": "4248bff269b6304b1b82f56f61b5818b450700d17e12a16cad5d84cff3a57381",
+          "sha1": "e86bc298fdb26445f5f81cc11395f2259065184c",
+          "md5": "7b58578fd602f3954262e2eb78fd650a"
+        }
+      ]
+    }
+  ]
+}

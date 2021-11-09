@@ -1,0 +1,4 @@
+rootProject.name = "apmRoot"
+include ':app'
+include ':plugin'
+include ':apmui'

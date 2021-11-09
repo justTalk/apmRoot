@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "apmRoot",
+    "module": "plugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "2qun2omh6fapzoi42ky62u4nbu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "apmtool-0.0.2.jar",
+          "url": "apmtool-0.0.2.jar",
+          "size": 8105,
+          "sha512": "c88ef2ff4bc7cb5d1a5725b49a5f64a934bec77ce7a1d88da2619534a51b268e51270bf5965279ac1fb2362483bcc987ad5eecea87b89cd1dacdd7a152a97880",
+          "sha256": "067e2931e7cedcaa2569d2121e35394ea9fbc4482271c61d94fb7a27be03af58",
+          "sha1": "7d515d5b0dd31176b5eacade8608b2e31363132c",
+          "md5": "487e3de9e971b11a9ef023767d1903da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.1.4"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "3.1.4"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.10"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "com.quinn.hunter",
+          "module": "hunter-transform",
+          "version": {
+            "requires": "0.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apmtool-0.0.2.jar",
+          "url": "apmtool-0.0.2.jar",
+          "size": 8105,
+          "sha512": "c88ef2ff4bc7cb5d1a5725b49a5f64a934bec77ce7a1d88da2619534a51b268e51270bf5965279ac1fb2362483bcc987ad5eecea87b89cd1dacdd7a152a97880",
+          "sha256": "067e2931e7cedcaa2569d2121e35394ea9fbc4482271c61d94fb7a27be03af58",
+          "sha1": "7d515d5b0dd31176b5eacade8608b2e31363132c",
+          "md5": "487e3de9e971b11a9ef023767d1903da"
+        }
+      ]
+    }
+  ]
+}
